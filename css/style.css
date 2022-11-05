@@ -408,6 +408,7 @@ main .contact button {
     -moz-transition: .6s;
     -ms-transition: .6s;
     -o-transition: .6s;
+    border: none !important;
 }
 
 main .contact button:hover {
@@ -471,6 +472,10 @@ main .contact button:hover {
     -moz-transform: scale(1.1);
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
+}
+
+.author {
+    font-size: 15px;
 }
 
 .author a {
