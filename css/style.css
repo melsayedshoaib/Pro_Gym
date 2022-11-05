@@ -260,6 +260,12 @@ main .growing button:hover {
     background: var(--alt-color);
 }
 
+@media(max-width: 768px) {
+    main .growing {
+        text-align: center;
+    }
+}
+
 /* End Growing */
 
 /* Start Testimonial */
