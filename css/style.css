@@ -154,11 +154,6 @@ h2 {
     padding-top: 82px;
 }
 
-.header .container .img img {
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-}
-
 @media(max-width: 767px) {
     .header .container .content {
         text-align: center;
@@ -350,3 +345,47 @@ main .testimonial .content:hover::after {
 }
 
 /* End Testimonial */
+
+/* Start Contact */
+main .contact {
+    padding: 50px 0;
+}
+
+main .contact input {
+    border: none;
+    border-bottom: 1px solid #333;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+main .contact textarea {
+    border: none;
+    border-bottom: 1px solid #333;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+main .contact button {
+    padding: 10px 20px;
+    transition: .6s;
+    -webkit-transition: .6s;
+    -moz-transition: .6s;
+    -ms-transition: .6s;
+    -o-transition: .6s;
+}
+
+main .contact button:hover {
+    background: green;
+}
+
+/* End Contact */
