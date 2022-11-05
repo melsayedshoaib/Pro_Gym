@@ -189,3 +189,54 @@ main .protien button:hover {
 }
 
 /* End Protien */
+
+/* Start About */
+
+.about .container .content {
+    padding-top: 20px;
+}
+
+.about .container .content .heading h2 {
+    padding-bottom: 30px;
+}
+
+.about .container .content .text p {
+    padding-left: 70px;
+}
+
+main .about .a-btn {
+    padding-left: 70px;
+}
+
+main .about button {
+    transition: .6s;
+    -webkit-transition: .6s;
+    -moz-transition: .6s;
+    -ms-transition: .6s;
+    -o-transition: .6s;
+    border: none !important;
+    margin-top: 10px;
+}
+
+main .about button:hover {
+    background: var(--alt-color);
+}
+
+@media(max-width: 768px) {
+    .about .container .content {
+        padding-top: 50px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    main .about .a-btn {
+        padding-left: 0;
+    }
+
+    .about .container .content .text p {
+        padding-left: 0;
+        text-align: center;
+    }
+}
+
+/* End About */
