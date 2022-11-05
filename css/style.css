@@ -246,6 +246,20 @@ main .growing .container .content .heading h1 {
     font-weight: 700;
 }
 
+main .growing button {
+    transition: .6s;
+    -webkit-transition: .6s;
+    -moz-transition: .6s;
+    -ms-transition: .6s;
+    -o-transition: .6s;
+    border: none !important;
+    margin-top: 10px;
+}
+
+main .growing button:hover {
+    background: var(--alt-color);
+}
+
 /* End Growing */
 
 /* Start Testimonial */
